@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.gregorian_hijri.ui.home.HomeFragment"
+        android:label="fragment_home_"
+        tools:layout="@layout/fragment_home"
+        />
+    <fragment
+        android:id="@+id/archiveFragment"
+        android:name="com.gregorian_hijri.ui.archive.ArchiveFragment"
+        android:label="fragment_archive"
+        tools:layout="@layout/fragment_archive" />
+</navigation>
